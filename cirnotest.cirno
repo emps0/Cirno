@@ -1,0 +1,9 @@
+say 'Hello World!'
+say 'Enter what I have to say!'
+hear
+say
+say 'Let's multiply some numbers! Enter 2 numbers (one at a time)'
+hear
+hear
+multiply 2
+say
