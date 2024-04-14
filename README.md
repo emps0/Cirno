@@ -31,3 +31,9 @@ Usage
   Run the Cirno interpreter with your code file as an argument:
   example:
     cirno.py program.cirno
+
+| Instruction | Description |
+| ------ | ------ |
+| say | prints whatever is specified after. if nothing is specified, prints whatever is popped from the stack |
+| hear | stores int in stack. if the input is not convertable to int, stores as string |
+| multiply | multiplies values from the stack. quantity of the values are specified as the input for this function |
