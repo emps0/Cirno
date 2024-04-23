@@ -7,3 +7,5 @@ hear
 hear
 multiply 2
 say
+say 'this is a test'20x
+reverse 'paralelepipedo'
