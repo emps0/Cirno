@@ -34,6 +34,11 @@ for line in lines:
             for i in range(times_to_print):
                 print(message)
             
+        elif line[-1] == "x":
+            message = brain.pop()
+            times_to_print = int(line[4:-1])
+            for i in range(times_to_print):
+                print(message)
         else:
             raise SyntaxError
 
