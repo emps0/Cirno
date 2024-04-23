@@ -8,4 +8,7 @@ hear
 multiply 2
 say
 say 'this is a test'20x
+say 'Give me a string to be repeated 5 times'
+hear
+say 5x
 reverse 'paralelepipedo'
