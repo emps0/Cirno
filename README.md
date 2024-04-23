@@ -12,9 +12,11 @@ Syntax
 
 Printing a message
 
-  The say function is used to print messages. Messages should be enclosed in single quotes.
+  The say function is used to print messages. Messages should be enclosed in single quotes. If there is no input, say will pop and print the stack. Say can also take another argument after the last quote. That argument is with the format <int>x, which will make the input be printed x times.
   Example:
     say 'Hello, world!'
+    say //will pop from stack
+    say 'This message will be printed 10 times'10x
     
 Receiving Input
 
@@ -24,6 +26,9 @@ Multiplying
 
   The multiply function is used to multiply values on the stack. It takes an integer argument specifying the number of arguments to multiply from the stack.
   The result is also stored in the stack
+
+Reversing
+  The reverse function is used to reverse and print strings to the output. reversed by itself will reverse the last item in the stack, pop it, and print it. reverse '<text>' will print <text> reversed.
 
 Usage 
 
@@ -35,5 +40,7 @@ Usage
 | Instruction | Description |
 | ------ | ------ |
 | say | prints whatever is specified after. if nothing is specified, prints whatever is popped from the stack |
-| hear | stores int in stack. if the input is not convertable to int, stores as string |
+| hear | stores int in stack. if the input is not convertible to int, stores as string |
 | multiply | multiplies values from the stack. quantity of the values are specified as the input for this function |
+| reverse | reverses and prints input or whatever is popped from the stack |
+
